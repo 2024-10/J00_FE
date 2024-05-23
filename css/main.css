@@ -1,0 +1,41 @@
+
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo-large {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    font-size: 40px;
+    color: #006735;
+    font-weight: 100;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+
+    .logo-large {
+        width: 400px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .logo-large {
+        width: 200px;
+    }
+
+    .container h1 {
+        font-size: 10px;
+    }
+}
