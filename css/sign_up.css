@@ -72,11 +72,16 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    cursor: not-allowed;
+}
+
+button.enabled {
+    background-color: #006735;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #ccc;
+button:hover.enabled {
+    background-color: #45a049;
 }
 
 /* Responsive Styles */
@@ -84,7 +89,7 @@ button:hover {
     .container {
         flex-direction: column;
         padding: 20px;
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
     .logo-large {
