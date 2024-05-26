@@ -46,8 +46,12 @@ nav ul li {
     padding: 5px 10px;
 }
 
+.nav-button.active {
+    color: #006735;
+}
+
 .nav-button:hover {
-    text-decoration: none;
+    color: #006735;
 }
 
 
